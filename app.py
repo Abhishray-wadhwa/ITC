@@ -185,7 +185,7 @@ with st.sidebar.subheader('2.2. General Parameters'):
                                                    0.00, 1.00, 0.95, 0.05)
     parameter_colsample_bytree = st.sidebar.slider('Colsample bytree (colsample_bytree)',
                                                            0.00, 1.00, 0.80, 0.05)
-    parameter_use_label_encoder = st.sidebar.select_slider('Use label encoder (n_jobs)', options=[True, False])
+    parameter_use_label_encoder = st.sidebar.select_slider('Use label encoder (n_jobs)', options=[False, True])
 
 # ---------------------------------#
 # Main panel
